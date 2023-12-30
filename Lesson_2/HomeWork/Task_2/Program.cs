@@ -11,17 +11,17 @@
     }
     else if (number_x > 0 && number_y > 0)
     {
-        Console.WriteLine("Точка находится в 1 четверти");
+        Console.WriteLine($"Точка ({number_x}, {number_y}) находится в 1 четверти");
     }
-        else if (number_x < 0 && number_y > 0)
+    else if (number_x < 0 && number_y > 0)
     {
-        Console.WriteLine("Точка находится во 2 четверти");
+        Console.WriteLine($"Точка ({number_x}, {number_y}) находится во 2 четверти");
     }
-        else if (number_x < 0 && number_y < 0)
+    else if (number_x < 0 && number_y < 0)
     {
-        Console.WriteLine("Точка находится в 3 четверти");
+        Console.WriteLine($"Точка ({number_x}, {number_y}) находится в 3 четверти");
     }
-        else if (number_x > 0 && number_y < 0)
+    else if (number_x > 0 && number_y < 0)
     {
-        Console.WriteLine("Точка находится в 4 четверти");
+        Console.WriteLine($"Точка ({number_x}, {number_y}) находится в 4 четверти");
     }

@@ -13,7 +13,7 @@
     int a = number_x % 10;
     int b = number_x / 10;
 
-    if (number_x < 10 ^ number_x > 99)
+    if (number_x < 10 || number_x > 99)
     {
         Console.WriteLine($"Введенное число {number_x} не лежит на отрезке [10, 99]");
     }
